@@ -1,5 +1,5 @@
 /* Deutsch A2 offline: keeps the app on the phone so it opens without internet. */
-const V = 'deutsch-a2-9477e6fe1db8';
+const V = 'deutsch-a2-fc6068986c29';
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"];
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== V).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
