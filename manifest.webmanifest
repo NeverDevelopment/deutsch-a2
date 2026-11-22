@@ -1,0 +1,87 @@
+{
+ "name": "Deutsch A2",
+ "short_name": "Deutsch A2",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "description": "Curso de alemán hasta el nivel A2, con explicaciones en español.",
+ "lang": "es",
+ "dir": "ltr",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#ffffff",
+ "theme_color": "#ffffff",
+ "categories": [
+  "education"
+ ],
+ "prefer_related_applications": false,
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Repasar tarjetas",
+   "short_name": "Repaso",
+   "url": "./#repaso",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Entrenar el examen",
+   "short_name": "Examen",
+   "url": "./#examen",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ],
+ "screenshots": [
+  {
+   "src": "screenshot-1.jpg",
+   "sizes": "780x1688",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "Inicio: tu racha, tu nivel y la siguiente lección"
+  },
+  {
+   "src": "screenshot-2.jpg",
+   "sizes": "780x1688",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "Practicar con premios y rachas"
+  },
+  {
+   "src": "screenshot-3.jpg",
+   "sizes": "780x1688",
+   "type": "image/jpeg",
+   "form_factor": "narrow",
+   "label": "Resultado con medalla y logros"
+  }
+ ]
+}
