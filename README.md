@@ -7,3 +7,6 @@ Se instala como app en el móvil y funciona sin internet.
 
 En Chrome (Android/Samsung): toca «Instalar» en la app, o en el menú ⋮ → «Instalar aplicación».
 El progreso se guarda en el propio teléfono.
+
+**Actualizaciones:** la app instalada se actualiza sola al abrirla con internet. En «Más → Ajustes → Versión»
+se ve la versión instalada y hay un botón «Buscar actualización».
